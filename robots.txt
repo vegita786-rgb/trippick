@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vegita786-rgb.github.io/trippick/sitemap.xml
