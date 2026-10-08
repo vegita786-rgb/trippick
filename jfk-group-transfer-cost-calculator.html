@@ -17,4 +17,4 @@
 <script>
 document.getElementById('go').onclick=()=>{const n=Math.max(1,Number(document.getElementById('n').value)||1);
 [['train','r1','Train/public transport'],['taxi','r2','Taxi/rideshare'],['private','r3','Private transfer']].forEach(([id,row,label])=>{const v=Number(document.getElementById(id).value);document.getElementById(row).textContent=v>0?label+': '+(v/n).toFixed(2)+' per person ('+v.toFixed(2)+' total)':'Enter a '+label.toLowerCase()+' quote to compare.'});document.getElementById('out').style.display='block';};
-</script></body></html>
+</script><script src="affiliate-config.js"></script><script src="monetize.js"></script></body></html>
