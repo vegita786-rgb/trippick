@@ -1,0 +1,14 @@
+# TripPick
+> Independent travel booking decision guides.
+
+Canonical site: https://vegita786-rgb.github.io/trippick/
+Sitemap: https://vegita786-rgb.github.io/trippick/sitemap.xml
+
+Key resources:
+- https://vegita786-rgb.github.io/trippick/colosseum-ticket-release-date-calculator.html — calculates 30-day and 7-day Colosseum booking windows.
+- https://vegita786-rgb.github.io/trippick/colosseum-underground-tickets-sold-out.html — fallback options when Underground tickets are unavailable.
+- https://vegita786-rgb.github.io/trippick/best-hotels-times-square.html — Times Square hotel decision checklist.
+- https://vegita786-rgb.github.io/trippick/airport-transfer-jfk-manhattan.html — JFK to Manhattan transfer comparison.
+- https://vegita786-rgb.github.io/trippick/rome-colosseum-tours.html — Colosseum access and tour comparison.
+
+Editorial policy: practical, source-checked buyer guidance; no fake first-hand claims or invented prices.
