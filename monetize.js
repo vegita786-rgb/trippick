@@ -1,4 +1,15 @@
 (function(){
+  if(document.querySelector(".trip-social-growth")) return;
+  const footer=document.querySelector("footer");
+  if(!footer) return;
+  const sec=document.createElement("section");
+  sec.className="section trip-social-growth";
+  sec.innerHTML='<div class="card"><div class="k">Stay trip-ready</div><h2>Follow TripPick for short booking checks</h2><p class="muted">Hotel fee traps, airport-transfer comparisons, attraction access and practical booking reminders.</p><a class="btn" href="https://www.facebook.com/people/TripPick/61595201849887/" target="_blank" rel="noopener">Follow on Facebook</a> <a class="btn" href="https://www.pinterest.com/vegita786/travel-planning-booking-tips/" target="_blank" rel="noopener">See travel pins</a> <button class="btn" id="trip-share-guide" type="button">Share this guide</button></div>';
+  footer.parentNode.insertBefore(sec,footer);
+  const b=document.getElementById("trip-share-guide");
+  b.onclick=async()=>{const data={title:document.title,text:"Useful TripPick travel guide",url:location.href};try{if(navigator.share)await navigator.share(data);else{await navigator.clipboard.writeText(location.href);b.textContent="Link copied";}}catch(e){}};
+})();
+(function(){
   const c=window.TRIPPICK_AFFILIATE||{};
   const p=location.pathname.split('/').pop();
   const map={
