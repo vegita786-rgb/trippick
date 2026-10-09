@@ -65,7 +65,8 @@ cards=[
 ("rome-fco.jpg","ROME","FCO → CITY","TRAIN OR TAXI?","Bags + group size + hotel location change the answer."),
 ("final-price.jpg","TRAVEL","FINAL PRICE","HEADLINE ≠ CHECKOUT","Fees + add-ons + cancellation can flip the deal."),
 ("cancellation.jpg","BOOKING","CANCELLATION TERMS","SAVE THE SCREENSHOT","The exact wording matters when plans change."),
-("city-tour.jpg","TOURS","BEFORE YOU BOOK","5 THINGS TO CHECK","Meeting point + group size + transport + cancellation + duration.")
+("city-tour.jpg","TOURS","BEFORE YOU BOOK","5 THINGS TO CHECK","Meeting point + group size + transport + cancellation + duration."),
+("hotel-true-cost.jpg","HOTELS","TRUE COST CALCULATOR","ROOM RATE ≠ FINAL PRICE","Add fees + parking and see the real nightly cost.")
 ]
 for c in cards: card(*c)
 
@@ -93,7 +94,8 @@ reels={
 "fco-transfer.mp4":[("ROME FCO → CITY","TRAIN OR TAXI?"),("BAGS + GROUP SIZE","CHANGE THE ANSWER"),("COMPARE FIRST","LINK IN FIRST COMMENT")],
 "final-price-rule.mp4":[("TRAVEL DEAL?","HEADLINE PRICE ISN’T FINAL"),("CHECK","FEES + ADD-ONS + TERMS"),("SAVE THIS RULE","LINK IN FIRST COMMENT")],
 "grand-canyon-daytrip.mp4":[("FROM LAS VEGAS","WEST OR SOUTH RIM?"),("DON’T JUST CHECK PRICE","CHECK THE TOTAL DAY LENGTH"),("SAVE BEFORE BOOKING","LINK IN FIRST COMMENT")],
-"liberty-ferry-check.mp4":[("STATUE OF LIBERTY","IS THE FERRY INCLUDED?"),("THEN CHECK","THE EXACT ACCESS LEVEL"),("SAVE THIS CHECK","LINK IN FIRST COMMENT")]
+"liberty-ferry-check.mp4":[("STATUE OF LIBERTY","IS THE FERRY INCLUDED?"),("THEN CHECK","THE EXACT ACCESS LEVEL"),("SAVE THIS CHECK","LINK IN FIRST COMMENT")],
+"hotel-true-cost.mp4":[("HOTEL DEAL?","ROOM RATE ISN’T THE REAL COST"),("ADD","FEES + PARKING + OTHER CHARGES"),("FREE CALCULATOR","LINK IN FIRST COMMENT")]
 }
 for fn,scenes in reels.items():
     td=tempfile.mkdtemp()
