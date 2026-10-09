@@ -2,8 +2,9 @@
 
 Page name: TripPick
 Category: Travel Website / Travel Service
-Bio: Smart travel booking guides, hotel comparisons, tours & money-saving travel picks.
+Bio: Smart travel booking guides, hotel comparisons, tours & money-saving travel tips.
 Website: https://vegita786-rgb.github.io/trippick/
+Facebook Page: https://www.facebook.com/people/TripPick/61595201849887/
 
 ## Post 1
 Booking a hotel near Times Square? Don't judge it by the room rate alone. Check destination fees, subway access, room size and street noise first.
