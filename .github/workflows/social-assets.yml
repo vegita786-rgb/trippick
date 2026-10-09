@@ -17,6 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python scripts/social_assets.py
       - name: Commit generated assets
         run: |
