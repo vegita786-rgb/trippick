@@ -2,7 +2,7 @@
 <title>JFK to Manhattan Group Cost Calculator | TripPick</title>
 <meta name="description" content="Enter your own current train, taxi and private-transfer quotes to compare total and per-person cost for your JFK to Manhattan trip.">
 <link rel="canonical" href="https://vegita786-rgb.github.io/trippick/jfk-group-transfer-cost-calculator.html"><link rel="stylesheet" href="styles.css">
-<style>.calc{max-width:720px}.calc input{width:100%;padding:12px;margin:6px 0 12px;border:1px solid #ccd6d2;border-radius:10px;font:inherit}.out{display:none;margin-top:18px}.row{padding:13px;border-radius:10px;background:#f5f8f7;margin:8px 0}</style></head>
+<style>.calc{max-width:720px}.calc input{width:100%;padding:12px;margin:6px 0 12px;border:1px solid #ccd6d2;border-radius:10px;font:inherit}.out{display:none;margin-top:18px}.row{padding:13px;border-radius:10px;background:#f5f8f7;margin:8px 0}</style><meta property="og:title" content="JFK to Manhattan Group Cost Calculator"><meta property="og:description" content="Enter your own live quotes and compare group and per-person transfer costs."><meta property="og:type" content="website"><meta property="og:url" content="https://vegita786-rgb.github.io/trippick/jfk-group-transfer-cost-calculator.html"></head>
 <body><div class="wrap"><nav class="nav"><a class="brand" href="index.html">TripPick</a><div class="links"><a href="index.html">Guides</a><a href="about.html">About</a></div></nav>
 <section class="hero"><div class="k">Free airport-transfer tool</div><h1>JFK → Manhattan Group Cost Calculator</h1><p>Use the live quotes you see today. Enter the total group price for each option and TripPick will show the per-person cost. This avoids publishing stale fares.</p></section>
 <section class="section"><div class="card calc">
@@ -13,7 +13,7 @@
 <button class="btn" id="go">Compare per-person cost</button>
 <div class="out" id="out"><div class="row" id="r1"></div><div class="row" id="r2"></div><div class="row" id="r3"></div></div></div></section>
 <section class="section"><div class="card"><h2>Cost is not the only factor</h2><p>Also compare luggage handling, transfers, stairs, traffic risk, hotel location and arrival time.</p><a class="btn" href="jfk-manhattan-with-luggage.html">Read the luggage-focused guide</a></div></section>
-<footer class="footer">TripPick · Independent travel booking guides · <a href="https://www.facebook.com/people/TripPick/61595201849887/" rel="noopener">Facebook</a></footer></div>
+<section class="section"><div class="card"><div class="k">Partner links</div><h2>Current JFK transfer options</h2><p class="muted">Tracked partner links will appear here after affiliate approval. TripPick does not publish invented prices or fake tracking IDs.</p><span class="btn disabled">Partner link pending approval</span></div></section><footer class="footer">TripPick · Independent travel booking guides · <a href="https://www.facebook.com/people/TripPick/61595201849887/" rel="noopener">Facebook</a></footer></div>
 <script>
 document.getElementById('go').onclick=()=>{const n=Math.max(1,Number(document.getElementById('n').value)||1);
 [['train','r1','Train/public transport'],['taxi','r2','Taxi/rideshare'],['private','r3','Private transfer']].forEach(([id,row,label])=>{const v=Number(document.getElementById(id).value);document.getElementById(row).textContent=v>0?label+': '+(v/n).toFixed(2)+' per person ('+v.toFixed(2)+' total)':'Enter a '+label.toLowerCase()+' quote to compare.'});document.getElementById('out').style.display='block';};
