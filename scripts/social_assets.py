@@ -61,7 +61,11 @@ cards=[
 ("louvre.jpg","PARIS","LOUVRE","TOUR OR ENTRY TICKET?","Timing + meeting point matter more than hype."),
 ("vatican.jpg","ROME","VATICAN","CHEAPEST TOUR?","Check group size + inclusions first."),
 ("grand-canyon.jpg","LAS VEGAS","GRAND CANYON","WEST OR SOUTH RIM?","Travel time can change your entire day."),
-("times-square.jpg","NEW YORK","TIMES SQUARE HOTEL","ROOM RATE ≠ FINAL PRICE","Fees + location + noise decide the real value.")
+("times-square.jpg","NEW YORK","TIMES SQUARE HOTEL","ROOM RATE ≠ FINAL PRICE","Fees + location + noise decide the real value."),
+("rome-fco.jpg","ROME","FCO → CITY","TRAIN OR TAXI?","Bags + group size + hotel location change the answer."),
+("final-price.jpg","TRAVEL","FINAL PRICE","HEADLINE ≠ CHECKOUT","Fees + add-ons + cancellation can flip the deal."),
+("cancellation.jpg","BOOKING","CANCELLATION TERMS","SAVE THE SCREENSHOT","The exact wording matters when plans change."),
+("city-tour.jpg","TOURS","BEFORE YOU BOOK","5 THINGS TO CHECK","Meeting point + group size + transport + cancellation + duration.")
 ]
 for c in cards: card(*c)
 
