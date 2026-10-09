@@ -1,14 +1,30 @@
 # TripPick
-> Independent travel booking decision guides.
+> Independent travel booking decision guides and free planning tools.
 
 Canonical site: https://vegita786-rgb.github.io/trippick/
 Sitemap: https://vegita786-rgb.github.io/trippick/sitemap.xml
+RSS: https://vegita786-rgb.github.io/trippick/feed.xml
+Facebook: https://www.facebook.com/people/TripPick/61595201849887/
+Pinterest: https://www.pinterest.com/vegita786/travel-planning-booking-tips/
 
 Key resources:
-- https://vegita786-rgb.github.io/trippick/colosseum-ticket-release-date-calculator.html — calculates 30-day and 7-day Colosseum booking windows.
-- https://vegita786-rgb.github.io/trippick/colosseum-underground-tickets-sold-out.html — fallback options when Underground tickets are unavailable.
-- https://vegita786-rgb.github.io/trippick/best-hotels-times-square.html — Times Square hotel decision checklist.
+- https://vegita786-rgb.github.io/trippick/colosseum-ticket-release-date-calculator.html — free calculator for Colosseum booking windows.
+- https://vegita786-rgb.github.io/trippick/colosseum-underground-tickets-sold-out.html — fallback options when Underground access is unavailable.
+- https://vegita786-rgb.github.io/trippick/colosseum-arena-vs-underground.html — compare Colosseum access types.
+- https://vegita786-rgb.github.io/trippick/rome-colosseum-tours.html — Colosseum access and tour decision guide.
+- https://vegita786-rgb.github.io/trippick/rome-vatican-tours.html — Vatican tour checklist.
+- https://vegita786-rgb.github.io/trippick/paris-louvre-tours.html — Louvre ticket vs guided-tour decision guide.
+- https://vegita786-rgb.github.io/trippick/best-hotels-times-square.html — Times Square hotel decision guide.
+- https://vegita786-rgb.github.io/trippick/times-square-hotel-fees-checklist.html — final-cost checklist for Times Square hotels.
+- https://vegita786-rgb.github.io/trippick/times-square-family-hotels.html — family-focused Times Square checklist.
 - https://vegita786-rgb.github.io/trippick/airport-transfer-jfk-manhattan.html — JFK to Manhattan transfer comparison.
-- https://vegita786-rgb.github.io/trippick/rome-colosseum-tours.html — Colosseum access and tour comparison.
+- https://vegita786-rgb.github.io/trippick/jfk-manhattan-with-luggage.html — luggage-focused JFK transfer guide.
+- https://vegita786-rgb.github.io/trippick/jfk-group-transfer-cost-calculator.html — free quote-based group cost calculator.
+- https://vegita786-rgb.github.io/trippick/las-vegas-strip-hotels.html — Las Vegas Strip hotel booking guide.
+- https://vegita786-rgb.github.io/trippick/vegas-grand-canyon-tours.html — Grand Canyon tour formats from Las Vegas.
+- https://vegita786-rgb.github.io/trippick/grand-canyon-west-vs-south-rim-vegas.html — West Rim vs South Rim comparison.
+- https://vegita786-rgb.github.io/trippick/statue-liberty-tour-guide.html — Statue of Liberty booking checklist.
+- https://vegita786-rgb.github.io/trippick/statue-liberty-crown-vs-pedestal.html — access-level comparison.
+- https://vegita786-rgb.github.io/trippick/rome-fco-airport-transfer-guide.html — Rome FCO airport transfer guide.
 
-Editorial policy: practical, source-checked buyer guidance; no fake first-hand claims or invented prices.
+Editorial policy: practical, source-checked buyer guidance; no fake first-hand claims, invented prices, fake availability or fabricated reviews.
