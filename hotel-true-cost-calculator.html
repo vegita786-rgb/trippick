@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hotel True Cost Calculator | TripPick</title>
+<meta name="description" content="Calculate the real total and effective nightly cost of a hotel after nightly fees, parking and other charges.">
+<link rel="canonical" href="https://vegita786-rgb.github.io/trippick/hotel-true-cost-calculator.html"><link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Hotel True Cost Calculator"><meta property="og:description" content="Room rate is not always the final price. Add fees and parking to see the real hotel cost."><meta property="og:type" content="website"><meta property="og:url" content="https://vegita786-rgb.github.io/trippick/hotel-true-cost-calculator.html"><meta property="og:image" content="https://vegita786-rgb.github.io/trippick/assets/social/final-price.jpg"><meta name="twitter:card" content="summary_large_image">
+<style>.calc{max-width:760px}.calc input{width:100%;padding:12px;margin:6px 0 14px;border:1px solid #ccd6d2;border-radius:10px;font:inherit}.result{display:none;margin-top:18px}.big{font-size:2rem;font-weight:900}.row{padding:14px;border-radius:10px;background:#f5f8f7;margin:8px 0}</style></head>
+<body><div class="wrap"><nav class="nav"><a class="brand" href="index.html">TripPick</a><div class="links"><a href="index.html">Guides</a><a href="about.html">About</a></div></nav>
+<section class="hero"><div class="k">Free hotel tool</div><h1>Hotel True Cost Calculator</h1><p>Headline room rate can hide mandatory fees, parking and other charges. Enter the numbers from the listing or checkout page to see the real trip total and effective nightly cost.</p></section>
+<section class="section"><div class="card calc">
+<label>Nightly room rate (in your currency)</label><input id="rate" type="number" min="0" step="0.01">
+<label>Number of nights</label><input id="nights" type="number" min="1" value="3">
+<label>Mandatory fee per night</label><input id="fee" type="number" min="0" step="0.01" value="0">
+<label>Parking per night</label><input id="parking" type="number" min="0" step="0.01" value="0">
+<label>Other total charges for the stay</label><input id="other" type="number" min="0" step="0.01" value="0">
+<button class="btn" id="go">Calculate true hotel cost</button>
+<div class="result" id="result"><div class="row"><span>Trip total</span><div class="big" id="total"></div></div><div class="row"><span>Effective nightly cost</span><div class="big" id="nightly"></div></div><div class="row" id="extra"></div><button class="btn" id="share" type="button">Share this calculator</button></div>
+</div></section>
+<section class="section"><div class="grid"><div class="card"><h2>Use checkout numbers</h2><p>For the most useful result, use the mandatory fees shown on the live hotel listing or checkout page rather than old screenshots or cached prices.</p></div><div class="card"><h2>Still compare location</h2><p>A lower total does not automatically mean better value if the location adds transport time or cost. Use the calculator as one part of the decision.</p></div></div></section>
+<footer class="footer">TripPick · Independent travel booking guides · <a href="affiliate-disclosure.html">Affiliate disclosure</a></footer></div>
+<script>
+const n=v=>Math.max(0,Number(document.getElementById(v).value)||0);
+document.getElementById('go').onclick=()=>{const nights=Math.max(1,n('nights')),rate=n('rate'),fee=n('fee'),parking=n('parking'),other=n('other');const base=rate*nights,extras=(fee+parking)*nights+other,total=base+extras;document.getElementById('total').textContent=total.toFixed(2);document.getElementById('nightly').textContent=(total/nights).toFixed(2);document.getElementById('extra').textContent='Extra charges added: '+extras.toFixed(2);document.getElementById('result').style.display='block';};
+document.getElementById('share').onclick=async()=>{const data={title:'Hotel True Cost Calculator',text:'Check the real hotel cost after fees and parking.',url:location.href};try{if(navigator.share)await navigator.share(data);else{await navigator.clipboard.writeText(location.href);document.getElementById('share').textContent='Link copied';}}catch(e){}};
+</script><script src="monetize.js"></script></body></html>
