@@ -13,7 +13,7 @@
 <button class="btn" id="go">Compare per-person cost</button>
 <div class="out" id="out"><div class="row" id="r1"></div><div class="row" id="r2"></div><div class="row" id="r3"></div></div></div></section>
 <section class="section"><div class="card"><h2>Cost is not the only factor</h2><p>Also compare luggage handling, transfers, stairs, traffic risk, hotel location and arrival time.</p><a class="btn" href="jfk-manhattan-with-luggage.html">Read the luggage-focused guide</a></div></section>
-<footer class="footer">TripPick · Independent travel booking guides</footer></div>
+<footer class="footer">TripPick · Independent travel booking guides · <a href="https://www.facebook.com/people/TripPick/61595201849887/" rel="noopener">Facebook</a></footer></div>
 <script>
 document.getElementById('go').onclick=()=>{const n=Math.max(1,Number(document.getElementById('n').value)||1);
 [['train','r1','Train/public transport'],['taxi','r2','Taxi/rideshare'],['private','r3','Private transfer']].forEach(([id,row,label])=>{const v=Number(document.getElementById(id).value);document.getElementById(row).textContent=v>0?label+': '+(v/n).toFixed(2)+' per person ('+v.toFixed(2)+' total)':'Enter a '+label.toLowerCase()+' quote to compare.'});document.getElementById('out').style.display='block';};
