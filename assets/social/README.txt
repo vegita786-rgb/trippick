@@ -4,3 +4,5 @@ Expanded creative set: FCO transfer, final-price, cancellation, city-tour checkl
 Contains destination-specific Facebook image cards and short original Reel MP4s.
 
 Expanded reel library: Times Square, Statue of Liberty, Louvre, Vatican, Grand Canyon, FCO transfer and final-price rule.
+
+Growth assets added: Hotel True Cost Reel, Grand Canyon day-trip Reel, Liberty ferry/access Reel.
