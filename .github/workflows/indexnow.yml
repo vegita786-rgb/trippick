@@ -6,6 +6,8 @@ on:
       - "*.html"
       - "pawwise/*.html"
       - "sitemap.xml"
+      - ".github/workflows/indexnow.yml"
+      - ".github/indexnow_submit.py"
   workflow_dispatch:
 permissions:
   contents: read
